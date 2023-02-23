@@ -81,6 +81,16 @@ footer p a {
         font-size: 4rem;
         font-weight: 500;
     }
+
+    .btn:hover {
+        background-color: initial;
+        color: initial;
+    }
+
+    .btn:active {
+        background-color: var(--cor-secundaria);
+        color: var(--cor-primaria);
+    }
 }
 
 @media (max-width: 750px) {
